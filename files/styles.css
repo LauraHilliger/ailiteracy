@@ -10,6 +10,7 @@ body {
   max-width: 690px;
   margin: 0 auto;
   line-height: 1.5em;
+  font-size:.9em;
 }
 
 a {
@@ -59,9 +60,12 @@ a:hover {
 
 }
 
+h2	{
+	color: #ffffff;
+}
 
-h2 {
-  color: #ffffff;
+h2.strings {
+  margin-top: -7.5%;
 }
 
 h3 {
@@ -84,6 +88,12 @@ li {
 img {
   border-radius: 15px;
   max-width: 200px;
+}
+
+.logo{
+	position: relative;
+	left: -27%;
+	max-width:100%;
 }
 
 /* Loader */
